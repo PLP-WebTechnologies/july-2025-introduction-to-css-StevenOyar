@@ -1,0 +1,220 @@
+/* CSS Box Model Assignment */
+
+/* Reset defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: seagreen;
+    background-color: whitesmoke;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    padding: 50px;
+    background-color: rgb(192, 229, 236);
+    text-align: center;
+    border: 2px solid rgb(82, 173, 198);
+    border-radius: 8px;
+    
+
+}
+
+.main_title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: darkblue;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #6b7280;
+}
+
+/* Main container */
+.main_body {
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Section headers */
+.introduction_header {
+    font-size: 30px;
+    color: darkblue;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Introduction */
+.introduction {
+    background-color: rgb(192, 229, 236);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.introduction_paragraph {
+    font-size: 16px;
+    margin: 20px 30px;
+    line-height: 1.6;
+}
+
+/* CSS basics */
+.basics_header {
+    font-size: 30px;
+    color: darkblue;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    line-height: 1;
+    border-radius: 8px;
+}
+
+.basics {
+    background-color: rgb(192, 229, 236);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.basic_container {
+    background-color: #fefce8;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Lists */
+.selector_list {
+    background-color: #f0fdff;
+    padding: 0 30px;
+    color: teal;
+    border: 2px dotted darkseagreen;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Sub-headers */
+.header3 {
+    color: #1e40af;
+    padding: 2px;
+    font-size: 19px;
+}
+
+/* Styling properties */
+.styling_properties {
+    background-color: rgb(192, 229, 236);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.styling {
+    font-size: 30px;
+    color: darkblue;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    line-height: 1;
+    border-radius: 8px;
+}
+
+.styling_header {
+    color: #1e40af;
+    padding: 2px;
+    font-size: 19px;
+}
+
+.style_list {
+    background-color: #f0fdff;
+    padding: 0 30px;
+    color: teal;
+    border: 2px dotted darkseagreen;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Box Model */
+.box_section {
+    background-color: rgb(192, 229, 236);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.box_container {
+    gap: 20px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box_header {
+    font-size: 30px;
+    color: darkblue;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    line-height: 1;
+    border-radius: 8px;
+}
+
+.box_headers {
+    color: #1e40af;
+    padding: 2px;
+    font-size: 18px;
+}
+
+/* Margin */
+.box_1 {
+    margin: 30px 10px;
+    padding: 20px 20px;
+    border: 2px solid dodgerblue;
+    background-color: lemonchiffon;
+    border-radius: 5px;
+    min-width: 200px;
+}
+
+/* Padding */
+.box_2 {
+    margin: 30px 10px;
+    padding: 40px 20px;
+    border: 2px solid dodgerblue;
+    background-color: lemonchiffon;
+    border-radius: 5px;
+    min-width: 200px;
+}
+
+/* Border */
+.box_3 {
+    margin: 30px 10px;
+    padding: 20px;
+    border: 6px dashed dodgerblue;
+    background-color: lemonchiffon;
+    border-radius: 5px;
+    min-width: 200px;
+}
+
+/* Content */
+.box_4 {
+    margin: 30px 10px;
+    padding: 20px 20px;
+    border: 2px solid dodgerblue;
+    background-color: lemonchiffon;
+    border-radius: 5px;
+    min-width: 200px;
+}
